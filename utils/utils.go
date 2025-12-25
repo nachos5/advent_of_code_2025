@@ -1,8 +1,8 @@
 package utils
 
 import (
-	"os"
 	"bufio"
+	"os"
 )
 
 func ReadFileLines(filepath string) ([]string, error) {
